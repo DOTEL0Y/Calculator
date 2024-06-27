@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <div id="calculator">
         <input id="display" readonly>
         <div id="keys">
@@ -25,6 +26,8 @@
             <button class="operator-btn" onclick="appendDisplay('/')">/</button>
             <button onclick="appendDisplay('0')">0</button>
             <button onclick="appendDisplay('.')">.</button>
+            <button onclick="backSpaceDisplay()" style="">
+                <img src="backspace-solid.svg" alt="" srcset="">
             <button onclick="calc()">=</button>
             <button  onclick="clearDisplay()" class="operator-btn">C</button>
         </div>

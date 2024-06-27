@@ -9,6 +9,14 @@ function appendDisplay(input){
 function clearDisplay(){
     display.value = "";
 }
+function backSpaceDisplay(){
+    console.log("1");
+    console.log(display.value.length);
+    if(display.value.length >= 1){
+        console.log(display.value.length);
+        display.value =display.value.substring(0,display.value.length-1)
+    }
+}
 
 function calc(){
     try{
